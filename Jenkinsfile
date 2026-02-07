@@ -32,12 +32,12 @@ pipeline{
         }
 
 
-        // stage("Build the application"){
-        //     steps {
-        //        sh "mvn clean package"
-        //     }
+        stage("Build the application"){
+            steps {
+               sh "mvn clean package"
+            }
 
-        // }
+        }
 
         // stage("Test the application"){
         //     steps {
